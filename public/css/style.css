@@ -1,0 +1,337 @@
+/*-------------
+ 	General
+-------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+html{
+    font: normal 16px sans-serif;
+    color: #555;
+}
+
+ul, nav{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+a.btn{
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #2196F3;
+    font-weight: 800;
+    text-align: center;
+}
+
+hr{
+    width: 150px;
+    height: 2px;
+    background-color: #2196F3;
+    border: 0;
+    margin-bottom: 80px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 125px 100px;
+}
+
+section h3{
+    color: #414a4f;
+    font: bold 38px 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+}
+section>p{
+    color: #414a4f;
+    font: bold 22px 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+section p{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 2;
+}
+
+ul.grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*-------------
+ 	Header
+-------------*/
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 35px 100px 0;
+}
+.logo, img{
+    height: 60px;
+}
+header h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav li{
+    margin: 0 15px;
+}
+
+header nav li:first-child{
+    margin-left: 0;
+}
+
+header nav li:last-child{
+    margin-right: 0;
+}
+
+
+
+/*----------------
+ 	Hero Section
+----------------*/
+
+.hero{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+.hero>h3{
+    color: #fff;
+}
+
+.hero .background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: #2196F3;
+    z-index: -1;
+}
+
+.hero .background-image:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #414a4f;
+    opacity: 0.75;
+}
+
+.hero h1{
+    font: bold 60px 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.hero h3{
+    font: normal 28px 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+.hero a.btn{
+    padding: 20px 46px;
+}
+
+
+/*--------------------
+ 	Our Work Section
+---------------------*/
+
+.оur-work{
+    background-color: #fff;
+}
+
+.our-work h3{
+    padding-top: 75px;
+}
+.our-work p{
+    padding-top: 35px;
+}
+
+.our-work .grid li{
+    padding: 20px;
+    height: 350px;
+    border-radius: 3px;
+
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+
+.our-work .grid li.small{
+    flex-basis: 40%;
+}
+
+.our-work .grid li.large{
+    flex-basis: 60%;
+}
+
+/*--------------------
+ 	Form
+---------------------*/
+
+.form{
+    background-color: #e3e3e3;
+}
+
+.form form{
+    display: flex;
+}
+form > div {
+    margin-right: 7px;
+}
+.form-head{
+    margin: 75px 20px;
+}
+
+form > div input{
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+    color: gray;
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+
+}
+
+form > div .btn{
+    color: white;
+    font-family: '-apple-system', sans-serif;
+    font-weight: bold;
+    background-color: #f68e5d;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+.forFrom{
+    padding-left: 15px;
+}
+
+/*--------------------
+ 	Shares
+---------------------*/
+
+
+
+
+.grid > .promotion{
+    text-align: center;
+}
+.promotion>img{
+    width: 600px;
+    height: 400px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.shares h4{
+    color: #414a4f;
+    font: bold 18px 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+/*--------------------
+ 	FormEmail
+---------------------*/
+
+
+.FormEmail{
+    display: flex;
+    background-color:#e3e3e3 ;
+}
+
+.FormEmail> div input{
+    padding-left: 10px;
+    border-radius: 15px;
+    border: none;
+    color: gray;
+    font-size: 22px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+
+}
+.FormEmail > div .btn{
+    color: white;
+    width: 200px;
+    font-family: '-apple-system', sans-serif;
+    font-weight: bold;
+    background-color: #f68e5d;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+
+/*--------------------
+ 	FormEmail
+---------------------*/
+
+footer{
+    padding: 100px;
+    background-color: #414a4f;
+    color: #fff;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    padding-top: 15px;
+}
+footer li:first-child{
+    margin-left:  200px;
+}
+footer hr{
+    padding-top: 50px;
+    margin:0 70px;
+    height: 40px;
+    width: 3px;
+    size: 900px;
+    border: solid #2196F3;
+    border-radius: 5px;
+}

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.7s;
+
+}
+
+header{
+    position: absolute;
+    align-items: center;
+    margin: 15px 100px;
+    display: block;
+
+
+}
+header nav{
+    color: white;
+    font-size: 24px;
+    height: 70px;
+    display: flex;
+}
+header nav .nav1{
+    background-color: #00D8FF;
+    display: flex;
+    border-radius: 10px;
+}
+hr{
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    padding: 0;
+    margin:  0 10px;
+}
+header nav .nav1 div{
+    padding-top: 20px;
+    margin: 0 0 0 20px;
+}
+header nav .nav1 div:last-child{
+    margin-right: 150px;
+}
+
+
+header nav a:hover{
+
+}
+.button{
+    margin: 0 0 0 25px;
+    background: white;
+    border:solid #00D8FF;
+    padding: 15px 25px;
+    color: #00D8FF;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.7s;
+
+}
+.button:hover{
+    background-color: #00D8FF;
+    color: white;
+    transition: 0.7s;
+}
+.btn{
+    margin-left: 70px;
+    display: flex;
+}
+h3{
+    margin-bottom: 25px;
+    color: #494C4D;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Handlle',sans-serif;
+}
+
+
+section{
+    margin-left: 150px;
+    align-items: center;
+    padding: 70px 100px;
+}
+section h3{
+    padding-bottom: 25px;
+    padding-top: -100px;
+}
+.required{
+    padding-right:250px;
+    padding-left:250px;
+    align-items: center;
+}
+.required .head{
+    padding: 50px;
+    margin-right: 520px;
+    box-shadow: 0 0 10px rgb(0,0,0);
+}
+.input{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+li input{
+    margin: 25px 110px 25px 0;
+    width: 350px;
+    height: 50px;
+}
+input, label{
+    font-weight: 500;
+
+    color: #494C4D;
+    font-family: 'Handlle',cursive;
+    font-size: 20px;
+    display: block;
+}
+.nav2{
+    margin-top: 30px;
+}
+.nav3{
+    background: white;
+    border:solid #00D8FF;
+    padding: 15px 240px 15px 50px;
+    color: #00D8FF;
+    text-decoration: none;
+}
+
+.nothing{
+    margin-top: 76px;
+    margin-bottom: 50px;
+}
+.nothing input::placeholder{
+    color: #00D8FF;
+
+}
+.nothing input{
+    color: #00D8FF;
+    border-color: #00D8FF;
+}
+.nothing input:focus{
+    border-color: #00D8FF;
+    background-color: #00D8FF;
+    color: #FFF;
+}
+.button-2{
+    margin: 0 0 0 75px;
+    background: #00D8FF;
+    padding: 20px 25px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.7s;
+
+}
+.button-2:hover{
+    background-color: white;
+    color: #00D8FF;
+    border: solid #00D8FF;
+    transition: 0.7s;
+}
